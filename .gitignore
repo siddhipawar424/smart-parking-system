@@ -1,0 +1,67 @@
+# ═══════════════════════════════════════════════════════════
+#  Smart Parking System — Root .gitignore
+# ═══════════════════════════════════════════════════════════
+
+# ── Environment & Secrets ────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ── IDE & Editor ─────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── OS Generated ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────────────────────
+#  BACKEND (Spring Boot / Maven)
+# ─────────────────────────────────────────────────────────
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/*.log
+backend/logs/
+
+# ─────────────────────────────────────────────────────────
+#  FRONTEND (React / Vite / Node)
+# ─────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.local
+
+# Build artifacts
+frontend/build/
+frontend/.cache/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ─────────────────────────────────────────────────────────
+#  Generated / Temporary
+# ─────────────────────────────────────────────────────────
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.log
