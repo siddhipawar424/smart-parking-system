@@ -8,7 +8,7 @@ USE smart_parking_db;
 
 -- ─────────────────────────────────────────────────────────────────────────────
 --  1. USERS  (2 Admins + 5 Regular Users)
---  All passwords = Admin@123 (admin accounts) or User@1234 (user accounts)
+--  All passwords = admin password (admin accounts) or user password (user accounts)
 -- ─────────────────────────────────────────────────────────────────────────────
 INSERT INTO users (full_name, email, password, role) VALUES
 -- Admins  (password: Admin@123)
