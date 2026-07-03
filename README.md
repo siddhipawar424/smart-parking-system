@@ -363,12 +363,6 @@ Please follow [Conventional Commits](https://www.conventionalcommits.org/) for c
 
 ---
 
-## License
-
-This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
-
----
-
 <div align="center">
 
 Built with ❤️ using Spring Boot 3 + React 19 + Material UI
